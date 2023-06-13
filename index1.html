@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- підключення  bootstrap 5  через cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- підключення  bootstrap 5  через cdn -->
+    
     <link rel="stylesheet" href="style1.css"> 
 </head>
 <body>
-    <div class="container-fluid">
+    <!--- sm ≥576px,	md	≥768px, lg ≥992px -->
+    <div class="container-fluid">    <!-- на всю ширину браузера -->
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-6 b1">1</div>
+            <div class="col-sm-6 col-md-4 col-lg-6 b1">1</div> <!-- на ширині sm займає половину ширини браузера( 6 колонок з 12 ), 
+            на ширині md третину (4 з 12 колонок), 
+            на ширині lg половину ( 6 з 12 колонок) -->
             <div class="col-sm-6 col-md-4 col-lg-6 b2">2</div>
       
             <div class="col-sm-6 col-md-4 col-lg-3 b3">3</div>
